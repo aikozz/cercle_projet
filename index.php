@@ -70,7 +70,7 @@
 					?>
 
 					<button class="btn btn-success" id="success" type="button">Valider</button>
-					<button class="btn btn-danger" id="cancel" onclick="cancel()" type="button">Annuler</button>
+					<button class="btn btn-danger" id="cancel" type="button">Annuler</button>
 
 				</div>
 			</div>
