@@ -13,8 +13,6 @@
 
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
-	</script>
 
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
@@ -27,7 +25,7 @@
 	<![endif]-->
 </head>
 
-<body class="home">
+<body class="home" onload="popup()">
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -212,6 +210,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 	<script src="assets/js/template.js"></script>
 	<script src="action.js"></script>
+	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
