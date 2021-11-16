@@ -3,7 +3,8 @@ const cancelBtn = document.getElementById("cancel");
 const popupBtn = document.getElementById("open");
 
 function popup() {
-  $("#ModalForm").modal({ backdrop: "static", keyboard: false }, "show");
+  $("#ModalForm").modal({ backdrop: "static", keyboard: false });
+  $("#ModalForm").modal("show");
 }
 
  popupBtn.addEventListener("click", () => {
