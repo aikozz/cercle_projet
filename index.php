@@ -210,8 +210,6 @@
 	<script src="action.js"></script>
 	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
 	</script>
-	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
-	</script>
 
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script>
