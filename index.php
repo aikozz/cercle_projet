@@ -26,7 +26,11 @@
 	<![endif]-->
 </head>
 
+<<<<<<< Updated upstream
 <body class="home">
+=======
+<body class="home" onload="init()">
+>>>>>>> Stashed changes
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom">
 		<div class="container">
@@ -41,8 +45,19 @@
 	<header id="head">
 		<div class="container">
 			<div class="row">
+<<<<<<< Updated upstream
 				<p class="lead"><?php //getLastKeyword(); 
 								?></p>
+=======
+				<div class='alert alert-success visually-hidden' id="alert" role='alert'>
+					Action effectué avec succès !
+				</div>
+			
+				<!-- Button trigger modal -->
+				<button type="button" id="open" class="btn btn-primary btn-lg m-2" data-bs-toggle="modal" data-bs-target="#ModalForm">
+					Ouvrir le pop-up
+				</button>
+>>>>>>> Stashed changes
 			</div>
 		</div>
 	</header>
@@ -53,40 +68,53 @@
 
 			<h3 class="text-center thin">Statistiques</h3>
 
-			<div class="row">
+			<div class="row d-flex justify-content-center">
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><i class="fa fa-cogs fa-5"></i>Nombre de mots clé totaux</h4>
+						<h4><i class="fa fa-cogs fa-5"></i>Nombre de mots clé détecté</h4>
 					</div>
-					<div class="h-body text-center">
-						<p><?php //getCountKeyword(); 
-							?></p>
+					<div>
+						<canvas id="keywords"></canvas>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><i class="fa fa-star fa-5"></i>Mot clé le plus populaire</h4>
+						<h4><i class="fas fa-phone-volume"></i>Nombres de conversation en cours</h4>
 					</div>
 					<div class="h-body text-center">
-						<p><?php //getPopularKeyword(); 
-							?></p>
+						1
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><i class="fas fa-hotel"></i>Dernière réservation</h4>
+						<h4><i class="fas fa-robot"></i>Nombres d'actions exécutées</h4>
 					</div>
 					<div class="h-body text-center">
-						<p><?php //getLastResa(); 
-							?></p>
+						1
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4><i class="fab fa-raspberry-pi"></i>Suivi du Raspberry</h4>
 					</div>
-					<div class="h-body text-center">
-						<p></p>
+					<div>
+						<canvas id="monitoring"></canvas>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption">
+						<h4><i class="fa fa-star fa-5"></i>Mot clé les plus populaires</h4>
+					</div>
+					<div>
+						<canvas id="doughnuts_popular"></canvas>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight">
+					<div class="h-caption">
+						<h4><i class="fas fa-hotel"></i>Réservations les plus populaires</h4>
+					</div>
+					<div>
+						<canvas id="doughnuts_resa"></canvas>
 					</div>
 				</div>
 			</div> <!-- /row  -->
@@ -120,10 +148,13 @@
 			</div>
 		</div> <!-- /row -->
 
+<<<<<<< Updated upstream
 		<div class="jumbotron top-space">
 			<h4>Dicta, nostrum nemo soluta sapiente sit dolor quae voluptas quidem doloribus recusandae facere magni ullam suscipit sunt atque rerum eaque iusto facilis esse nam veniam incidunt officia perspiciatis at voluptatibus. Libero, aliquid illum possimus numquam fuga.</h4>
 			<p class="text-right"><a class="btn btn-primary btn-large">Learn more »</a></p>
 		</div>
+=======
+>>>>>>> Stashed changes
 	</div> <!-- /container -->
 
 	<footer id="footer" class="top-space">
@@ -135,7 +166,7 @@
 					<div class="col-md-12 widget text-center">
 						<h3 class="widget-title">Exostimes</h3>
 						<div class="widget-body">
-							<p>Entreprise blablabla</p>
+							<p>Tour opérateur expert du voyage dans les îles.</p>
 						</div>
 					</div>
 
@@ -151,7 +182,7 @@
 					<div class="col-md-12 widget">
 						<div class="widget-body">
 							<p class="text-center">
-								Copyright &copy; 2021, Voice Reservation. Design par <a href="http://gettemplate.com/" rel="designer">gettemplate</a>
+								Cercle de projet G4 - 2021 - Equipe 3 Paris.
 							</p>
 						</div>
 					</div>
@@ -169,6 +200,39 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+<<<<<<< Updated upstream
+=======
+	<script src="action.js"></script>
+	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script>
+		<?php include 'stats/setup.js'; ?>
+		<?php include 'stats/config.js'; ?>
+
+		const keywords = new Chart(
+			document.getElementById('keywords'),
+			config_keywords
+		);
+
+		const doughnuts_popular = new Chart(
+			document.getElementById('doughnuts_popular'),
+			config_popular
+		);
+
+		const doughnuts_resa = new Chart(
+			document.getElementById('doughnuts_resa'),
+			config_resa
+		);
+
+		const monitoring = new Chart(
+			document.getElementById('monitoring'),
+			mconfig
+		);
+	</script>
+
+>>>>>>> Stashed changes
 </body>
 
 </html>
