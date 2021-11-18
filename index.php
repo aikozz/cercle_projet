@@ -33,7 +33,6 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="../cercle_projet/assets/images/logo.png"></a>
 			</div>
-
 		</div>
 	</div>
 	<!-- /.navbar -->
