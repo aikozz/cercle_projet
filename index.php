@@ -28,10 +28,10 @@
 <body class="home" onload="init()">
 
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top headroom">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" alt="Voice Reservation"></a>
 			</div>
 		</div>
 	</div>
@@ -96,7 +96,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><i class="fas fa-phone-volume"></i>Nombres de conversation en cours</h4>
+						<h4><i class="fas fa-phone-volume"></i>Nombres de conversations en cours</h4>
 					</div>
 					<div class="h-body text-center">
 						1
@@ -120,7 +120,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><i class="fa fa-star fa-5"></i>Mot clé les plus populaires</h4>
+						<h4><i class="fa fa-star fa-5"></i>Mots clé les plus populaires</h4>
 					</div>
 					<div>
 						<canvas id="doughnuts_popular"></canvas>
@@ -149,16 +149,13 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h3>Documentation d'installation</h3>
-				<p>La documentation décrivant étape par étape, de façon concise l'installation dans le but de faciliter la prise en main
-					de l'utilisateur.
-					Une version complète est à retrouvée ci-dessous.
+				<p>La documentation décrivant étape par étape, de façon concise l'installation dans le but de faciliter la prise en main de l'utilisateur. Une version complète est à retrouver ci-dessous.
 				<p class="text-center"><a href="#" class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
 				</p>
 			</div>
 			<div class="col-sm-6">
 				<h3>Documentation d'utilisation</h3>
-				<p>La documentation d'utilisation décrite afin que l'utilisateur ait une vision d'ensemble de l'utilisation possible de l'outil.
-					Une version complète est à retrouvée ci-dessous.
+				<p>La documentation d'utilisation décrite afin que l'utilisateur ait une vision d'ensemble de l'utilisation possible de l'outil. Une version complète est à retrouver ci-dessous.
 				<p class="text-center"><a href="docs/DU-VR-FR.docx" class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
 
 				</p>
@@ -207,7 +204,7 @@
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-	<script src="action.js"></script>
+	<script src="assets/js/action.js"></script>
 	<script src="https://kit.fontawesome.com/3693fa4061.js" crossorigin="anonymous">
 	</script>
 
