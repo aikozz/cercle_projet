@@ -152,14 +152,14 @@
 				<p>La documentation décrivant étape par étape, de façon concise l'installation dans le but de faciliter la prise en main
 					de l'utilisateur.
 					Une version complète est à retrouvée ci-dessous.
-				<p class="text-center"><a class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
+				<p class="text-center"><a href="#" class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
 				</p>
 			</div>
 			<div class="col-sm-6">
 				<h3>Documentation d'utilisation</h3>
 				<p>La documentation d'utilisation décrite afin que l'utilisateur ait une vision d'ensemble de l'utilisation possible de l'outil.
 					Une version complète est à retrouvée ci-dessous.
-				<p class="text-center"><a class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
+				<p class="text-center"><a href="docs/DU-VR-FR.docx" class="btn btn-success btn-large"><i class="fa fa-download" aria-hidden="true"></i> Télécharger</a></p>
 
 				</p>
 			</div>
