@@ -150,8 +150,20 @@
 
 					<div class="col-md-12 widget">
 						<div class="widget-body">
-							<p class="text-center">
-								Copyright &copy; 2021, Voice Reservation. Design par <a href="http://gettemplate.com/" rel="designer">gettemplate</a>
+							<p class="simplenav">
+								<a href="#">Home</a> | 
+								<a href="sidebar-right.html">Sidebar</a> |
+
+								<b><a href="signup.html">Sign up</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								projet <a href="https://www.institut-g4.fr" rel="designer">institut G4
+ </a>pour la societe exotisme
 							</p>
 						</div>
 					</div>
